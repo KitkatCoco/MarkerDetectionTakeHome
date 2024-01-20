@@ -12,5 +12,8 @@ Plot 2 - keep only the edge image using Canny Edge detection to
 Plot 3 - keep the candidate contours (Based on input min/max radius for area selection)
 ![Contours](Tutorial/3.png)
 
-Plot 4 - final results = detected circles + input grayscale image
-![Final Results](Tutorial/4.png)
+Plot 4 - by applying the optional trim_boarder (assuming ROI is centered), get rid of circles on the outer image
+![Contours_center](Tutorial/4.png)
+
+Plot 5 - final results = detected circles + input grayscale image
+![Final Results](Tutorial/5.png)
