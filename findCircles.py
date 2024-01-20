@@ -121,9 +121,9 @@ if __name__ == "__main__":
 
     # specify the path to the image
     # path_to_image = r"Images\gray.png"
-    # path_to_image = r"Images\gray2.png"
+    path_to_image = r"Images\gray2.png"
     # path_to_image = r"Images\rgb.png"
-    path_to_image = r"Images\rgb2.png"
+    # path_to_image = r"Images\rgb2.png"
 
     # set mandatory parameters
     minRadius = 5  # minimum radius of the circles to be detected
@@ -133,7 +133,7 @@ if __name__ == "__main__":
 
     # set optional parameters (set to None if not needed)
     max_sticker_number = None  # only detect up to 5 stickers
-    trim_border = None  # trim 10% of the border (e.g. 0.1 to trim 10% boarders)
+    trim_border = 0.2  # trim 10% of the border (e.g. 0.1 to trim 10% boarders)
 
     # run the detection
     detect_and_display_circles(path_to_image,
